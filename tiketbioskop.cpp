@@ -17,7 +17,7 @@ Film daftarFilm[MAX_FILM] = {
     {"Inside Out 2", "13:00", 100},
     {"Ipar adalah Maut ", "16:00", 100},
     {"Jurnal Risa", "19:00", 100},
-    {"Despicable Me 4", "21 : 00 ", 100}};
+    {"Despicable Me 4", "21:00", 100}};
 
 void tampilkanFilm()
 {
