@@ -86,20 +86,3 @@ int main()
     kelolaMenu();
     return 0;
 }
-Keterangan : Menambahkan fungsi main untuk menjalankan program.
-
-             Commit 6 : Menambahkan Validasi Input Film yang Dipilih
-                            cpp
-                                Salin kode if (pilihanFilm < 1 || pilihanFilm > MAX_FILM)
-{
-    cout << "Pilihan film tidak tersedia.\n";
-}
-else if (jumlahTiket > daftarFilm[pilihanFilm - 1].sisaTiket)
-{
-    cout << "Jumlah tiket tidak mencukupi.\n";
-}
-else
-{
-    daftarFilm[pilihanFilm - 1].sisaTiket -= jumlahTiket;
-    cout << "Selamat, Tiket berhasil dipesan!\n";
-}
